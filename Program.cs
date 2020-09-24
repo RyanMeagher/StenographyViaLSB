@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace P1_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // bitmap image that was given to store bytes of info which is also given as a string of bytes in hex 
+            // representation in args[0]
+            byte[] bmpBytes = new byte[]
+            {
+                0x42, 0x4D, 0x4C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1A, 0x00, 0x00, 0x00, 0x0C, 0x00, 0x00,
+                0x00, 0x04, 0x00, 0x04, 0x00, 0x01, 0x00, 0x18, 0x00, 0x00, 0x00, 0xFF, 0xFF, 0xFF, 0xFF, 0x00, 0x00,
+                0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0x00, 0x00, 0x00, 0xFF, 0xFF, 0xFF, 0x00, 0x00, 0x00, 0xFF,
+                0x00, 0x00, 0xFF, 0xFF, 0xFF, 0xFF, 0x00, 0x00, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0x00, 0x00, 0x00,
+                0xFF, 0xFF, 0xFF, 0x00, 0x00, 0x00
+            };
+
+            //initialize variable to Hide the bytes in bitmap Image
+            (var hideBytes, var bmpHeader, var bmpImg) = Init.Run(bmpBytes, args);
+            
+            //Hide the bytes in bitmap image
+            List<string> hiddenImg = HideBytes.Run(hideBytes, bmpHeader, bmpImg);
+            
+            //print string representation of our bitmap image with the secret message stored in Least significant bytes
+            string result = string.Join(" ", hiddenImg);
+            Console.Write(result);
+        }
+    }
+}

@@ -1,0 +1,12 @@
+/Users/owner/RiderProjects/P1_1/P1_1/bin/Debug/netcoreapp3.1/P1_1.deps.json
+/Users/owner/RiderProjects/P1_1/P1_1/bin/Debug/netcoreapp3.1/P1_1.runtimeconfig.json
+/Users/owner/RiderProjects/P1_1/P1_1/bin/Debug/netcoreapp3.1/P1_1.runtimeconfig.dev.json
+/Users/owner/RiderProjects/P1_1/P1_1/bin/Debug/netcoreapp3.1/P1_1.dll
+/Users/owner/RiderProjects/P1_1/P1_1/bin/Debug/netcoreapp3.1/P1_1.pdb
+/Users/owner/RiderProjects/P1_1/P1_1/obj/Debug/netcoreapp3.1/P1_1.csprojAssemblyReference.cache
+/Users/owner/RiderProjects/P1_1/P1_1/obj/Debug/netcoreapp3.1/P1_1.AssemblyInfoInputs.cache
+/Users/owner/RiderProjects/P1_1/P1_1/obj/Debug/netcoreapp3.1/P1_1.AssemblyInfo.cs
+/Users/owner/RiderProjects/P1_1/P1_1/obj/Debug/netcoreapp3.1/P1_1.csproj.CoreCompileInputs.cache
+/Users/owner/RiderProjects/P1_1/P1_1/obj/Debug/netcoreapp3.1/P1_1.dll
+/Users/owner/RiderProjects/P1_1/P1_1/obj/Debug/netcoreapp3.1/P1_1.pdb
+/Users/owner/RiderProjects/P1_1/P1_1/obj/Debug/netcoreapp3.1/P1_1.genruntimeconfig.cache
